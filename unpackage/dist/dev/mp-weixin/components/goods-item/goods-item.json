@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "index-price": "/components/index-price/index-price"
+  },
+  "component": true
+}

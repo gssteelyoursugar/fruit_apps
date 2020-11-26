@@ -1,0 +1,1 @@
+<view class="goods-container"><view class="half"><item vue-id="0067b63c-1" detail="{{evenlist}}" bind:__l="__l"></item></view><view class="half"><item vue-id="0067b63c-2" detail="{{oddlist}}" bind:__l="__l"></item></view></view>

@@ -1,0 +1,1 @@
+<view class="standard-container data-v-335948b6"><block wx:for="{{standardList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="standard-item data-v-335948b6"><image class="iconImg icon-right data-v-335948b6" src="{{item.url}}" mode="aspectFit"></image><text class="data-v-335948b6">{{item.title}}</text></view></block></view>

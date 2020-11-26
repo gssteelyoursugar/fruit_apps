@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "u-count-down": "/uview-ui/components/u-count-down/u-count-down",
+    "index-price": "/components/index-price/index-price",
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  },
+  "component": true
+}

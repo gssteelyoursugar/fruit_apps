@@ -1,0 +1,17 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "圈果",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 50,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "qg-swiper": "/pages/index/component/gq-swiper",
+    "standard-list": "/pages/index/component/standard-list",
+    "category": "/pages/index/component/category",
+    "msg-swiper": "/pages/index/component/msg-swiper",
+    "market-area": "/pages/index/component/market-area",
+    "goods-list": "/components/goods-list/goods-list"
+  }
+}

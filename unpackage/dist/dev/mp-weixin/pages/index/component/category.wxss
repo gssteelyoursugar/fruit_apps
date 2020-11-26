@@ -1,0 +1,43 @@
+page.data-v-097a9f26 {
+  background: #f7f7f7;
+}
+.category-container.data-v-097a9f26 {
+  margin: 0 20rpx;
+  background: #fff;
+  box-shadow: 0 0 10rpx 0 #e5e5e5;
+  padding: 40rpx 0 36rpx;
+  border-radius: 16rpx;
+}
+.category-container .kkarea-list.data-v-097a9f26,
+.category-container .cate-list.data-v-097a9f26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.category-container .kkarea-list .kkarea-item.data-v-097a9f26,
+.category-container .cate-list .kkarea-item.data-v-097a9f26,
+.category-container .kkarea-list .cate-item.data-v-097a9f26,
+.category-container .cate-list .cate-item.data-v-097a9f26 {
+  width: 20%;
+  text-align: center;
+  margin-bottom: 26rpx;
+}
+.category-container .kkarea-list .kkarea-item .item-img.data-v-097a9f26,
+.category-container .cate-list .kkarea-item .item-img.data-v-097a9f26,
+.category-container .kkarea-list .cate-item .item-img.data-v-097a9f26,
+.category-container .cate-list .cate-item .item-img.data-v-097a9f26 {
+  width: 104rpx;
+  height: 104rpx;
+}
+.category-container .kkarea-list .kkarea-item .item-text.data-v-097a9f26,
+.category-container .cate-list .kkarea-item .item-text.data-v-097a9f26,
+.category-container .kkarea-list .cate-item .item-text.data-v-097a9f26,
+.category-container .cate-list .cate-item .item-text.data-v-097a9f26 {
+  font-size: 24rpx;
+  color: #8A8A8A;
+}
+.category-container .cate-list.data-v-097a9f26 {
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+

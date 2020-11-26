@@ -1,0 +1,41 @@
+.price-container .price-wrap.data-v-2ca0debc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-family: Microsoft Yahei;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+          align-items: baseline;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  line-height: 24rpx;
+}
+.price-container .price-wrap .price-unit.data-v-2ca0debc {
+  font-size: 20rpx;
+  color: #FF6500;
+  font-weight: 400;
+}
+.price-container .price-wrap .price-num.data-v-2ca0debc {
+  font-size: 36rpx;
+  color: #FF6500;
+  font-weight: 800;
+  margin: 0 2rpx;
+}
+.price-container .price-wrap .price-num-unit.data-v-2ca0debc {
+  color: #B6B6B6;
+  font-weight: 400;
+  font-size: 20rpx;
+}
+.price-container .price-wrap .price-line-throught-num.data-v-2ca0debc {
+  color: #B6B6B6;
+  font-weight: 400;
+  font-size: 20rpx;
+  text-decoration: line-through;
+}
+.price-container .specification.data-v-2ca0debc {
+  font-size: 20rpx;
+  color: #B6B6B6;
+  text-align: center;
+}
+
