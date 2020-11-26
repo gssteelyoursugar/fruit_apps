@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;wEAAA,qBACA,sBACA,kD,mDACAA,EAAWC,a","file":"pagesII/seasonal/seasonal.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pagesII/seasonal/seasonal.vue'\ncreatePage(Page)"],"sourceRoot":""}

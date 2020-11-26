@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "进货单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-checkbox-group": "/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-swipe-action": "/uview-ui/components/u-swipe-action/u-swipe-action",
+    "u-checkbox": "/uview-ui/components/u-checkbox/u-checkbox",
+    "index-price": "/components/index-price/index-price",
+    "u-number-box": "/uview-ui/components/u-number-box/u-number-box"
+  }
+}

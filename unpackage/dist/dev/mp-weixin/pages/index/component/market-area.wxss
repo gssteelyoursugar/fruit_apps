@@ -6,8 +6,10 @@ page.data-v-813f82f4 {
   margin: 0 20rpx;
   padding: 20rpx;
   border: 1px solid #f5f5f5;
-  box-shadow: 0 0 10rpx #f5f5f5;
-  border-radius: 16rpx;
+  -webkit-box-shadow: 0 0 10rpx #f5f5f5;
+          box-shadow: 0 0 10rpx #f5f5f5;
+  -webkit-border-radius: 16rpx;
+          border-radius: 16rpx;
 }
 .market-area-container .sales-part.data-v-813f82f4 {
   display: -webkit-box;
@@ -44,7 +46,9 @@ page.data-v-813f82f4 {
   font-size: 24rpx;
   color: #fff;
   font-weight: 400;
-  border-radius: 2rpx 20rpx 2rpx 20rpx;
+  -webkit-border-radius: 2rpx 20rpx 2rpx 20rpx;
+          border-radius: 2rpx 20rpx 2rpx 20rpx;
+  background: -webkit-gradient(linear, left top, right top, from(#FF6500), to(#FF7709));
   background: -webkit-linear-gradient(left, #FF6500, #FF7709);
   background: linear-gradient(to right, #FF6500, #FF7709);
   padding: 0 4rpx 0 10rpx;

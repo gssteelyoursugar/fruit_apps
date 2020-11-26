@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;wEAAA,qBACA,sBACA,sI,mDACAA,EAAWC,a","file":"pageII/cooperation/cooperation.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pageII/cooperation/cooperation.vue'\ncreatePage(Page)"],"sourceRoot":""}

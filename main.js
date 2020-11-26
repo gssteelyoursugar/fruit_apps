@@ -5,6 +5,12 @@ Vue.config.productionTip = false
 
 App.mpType = 'app'
 
+
+
+// 引入vuex文件
+import store from 'store/store.js'
+Vue.prototype.$store = store
+
 // 引入全局uView
 import uView from 'uview-ui'
 Vue.use(uView);

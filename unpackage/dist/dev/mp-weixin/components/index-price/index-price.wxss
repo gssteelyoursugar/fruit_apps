@@ -6,9 +6,6 @@
   -webkit-box-align: baseline;
   -webkit-align-items: baseline;
           align-items: baseline;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
   line-height: 24rpx;
 }
 .price-container .price-wrap .price-unit.data-v-2ca0debc {

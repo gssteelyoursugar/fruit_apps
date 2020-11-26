@@ -13,7 +13,7 @@
 							<image src="../../../static/images/fruit_preload.png" mode=""></image>
 						</view>
 						<view class="content-text">
-							<index-price :real_price="12" :line_price="12" :specification="specification"></index-price>
+							<index-price :isCenter="true" :real_price="12" :line_price="12" :specification="specification"></index-price>
 						</view>
 					</view>
 				</view>
@@ -29,18 +29,18 @@
 							<image src="../../../static/images/fruit_preload.png" mode=""></image>
 						</view>
 						<view class="content-text">
-							<index-price :real_price="12" :line_price="12" :specification="specification"></index-price>
+							<index-price :isCenter="true" :real_price="12" :line_price="12" :specification="specification"></index-price>
 						</view>
 					</view>
 				</view>
 			</view>
 		</view>
 		<view class="rank-part">
-			<view class="rank-item" v-for="item of 4" :key="item">
-				<view class="item-title">销量排行</view>
-				<view class="item-desc">跟榜买 不愁卖</view>
+			<view class="rank-item" v-for="(item,index) of rankList" :key="index">
+				<view class="item-title">{{item.title}}</view>
+				<view class="item-desc">{{item.desc}}</view>
 				<view class="item-content">
-					<image src="../../../static/images/fruit_preload.png" mode=""></image>
+					<image :src="item.url" mode=""></image>
 				</view>
 			</view>
 		</view>
@@ -60,6 +60,32 @@
 		data() {
 			return {
 				specification: "一件约5斤",
+				rankList: [
+					{
+						id:1,
+						title: "销量排行",
+						desc: "跟榜买 不愁卖",
+						url: "../../../static/images/rank_1.png"
+					},
+					{
+						id:2,
+						title: "评价排行",
+						desc: "好货靠口碑",
+						url: "../../../static/images/rank_2.png"
+					},
+					{
+						id:3,
+						title: "关注排行",
+						desc: "大家都关注",
+						url: "../../../static/images/rank_3.png"
+					},
+					{
+						id:4,
+						title: "复购排行",
+						desc: "买了又买",
+						url: "../../../static/images/rank_4.png"
+					},
+				]
 			}
 		},
 		methods: {}

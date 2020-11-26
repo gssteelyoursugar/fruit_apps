@@ -2,8 +2,10 @@
   padding: 20rpx;
   margin: 20rpx;
   background: #fff;
-  box-shadow: 0 0 10rpx 0 #e5e5e5;
-  border-radius: 16rpx;
+  -webkit-box-shadow: 0 0 10rpx 0 #e5e5e5;
+          box-shadow: 0 0 10rpx 0 #e5e5e5;
+  -webkit-border-radius: 16rpx;
+          border-radius: 16rpx;
 }
 .index-news-container .news-box.data-v-2737936c {
   position: relative;

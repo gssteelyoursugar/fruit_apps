@@ -1,0 +1,1 @@
+<view class="cate-container data-v-585199e6"><cate-item vue-id="9c3bb840-1" list="{{list}}" imgUrl="{{imgList[curIndex]}}" class="data-v-585199e6" bind:__l="__l"></cate-item></view>

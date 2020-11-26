@@ -1,0 +1,1 @@
+<view class="agreement-container data-v-12598c9a"><view class="agreement-content data-v-12598c9a"><u-parse vue-id="38d7049a-1" html="{{info.content}}" class="data-v-12598c9a" bind:__l="__l"></u-parse></view></view>

@@ -4,9 +4,36 @@
     "pages/search/search",
     "pages/selection/selection",
     "pages/order/order",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/cart/cart"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "pagesII",
+      "pages": [
+        "cooperation/cooperation",
+        "customerService/customerService",
+        "message/message",
+        "timeInfo/timeInfo",
+        "ruleDescription/ruleDescription",
+        "setUp/setUp",
+        "category/category",
+        "Recently/Recently",
+        "calOrder/calOrder",
+        "Evaluate/Evaluate",
+        "myCollection/myCollection",
+        "rankList/rankList",
+        "storeInfo/storeInfo",
+        "storeData/storeData"
+      ]
+    },
+    {
+      "root": "pagesIII",
+      "pages": [
+        "serviceAgreement/serviceAgreement"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarBackgroundColor": "#fff",
@@ -37,7 +64,7 @@
         "text": "选果标准"
       },
       {
-        "pagePath": "pages/order/order",
+        "pagePath": "pages/cart/cart",
         "iconPath": "static/images/order0.png",
         "selectedIconPath": "static/images/order1.png",
         "text": "进货单"
@@ -51,5 +78,5 @@
     ]
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap31.json"
+  "sitemapLocation": "sitemap5.json"
 }

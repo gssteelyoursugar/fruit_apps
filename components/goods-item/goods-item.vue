@@ -13,7 +13,7 @@
 				<text v-for="(itm,idx) of item.goodsType" :key="idx">{{itm.name}}</text>
 			</view>
 			<view class="item-price-stuff">
-				<index-price :real_price="item.platformClinetPrice" :line_price="item.marketPrice"></index-price>
+				<index-price :isCenter="false" :real_price="item.platformClinetPrice" :line_price="item.marketPrice"></index-price>
 				<view class="praise-num">
 					<image src="../../static/images/praise.png" mode=""></image>
 					<text>{{item.praiseNumber |filterNum}}</text>

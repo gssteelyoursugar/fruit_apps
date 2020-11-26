@@ -549,14 +549,14 @@
 			href(page) {
 				const urlList = {
 					0: "",
-					1: "../../pagesII/OrderStatistics/OrderStatistics",
+					1: "../../pagesII/calOrder/calOrder",
 					2: "../../pagesII/Evaluate/Evaluate",
 					3: "../../pagesII/myCollection/myCollection",
 					4: "../../pagesII/customerService/customerService",
 					5: "../../pagesII/message/message",
 					6: "../../pagesII/ruleDescription/ruleDescription",
 					7: "../../pagesII/cooperation/cooperation",
-					8: "../../pagesII/SetUp/SetUp"
+					8: "../../pagesII/setUp/setUp"
 				}
 				if (page == 5 || page == 6 || page == 7) {
 					uni.navigateTo({
@@ -564,24 +564,16 @@
 					})
 					return
 				}
-				if (!this.wxlogin) {
-					uni.showToast({
-						title: '请先登录',
-						icon: "none"
-					})
+				if (this.wxlogin) { // !this.wxlogin
+					// uni.showToast({
+					// 	title: '请先登录',
+					// 	icon: "none"
+					// })
 				} else {
 					uni.navigateTo({
 						url: urlList[page]
 					})
 				}
-			},
-			detail: function() {
-				uni.navigateTo({
-					url: '../productDetail/productDetail'
-				})
-			},
-			back() {
-				uni.navigateBack();
 			}
 		},
 		onShow() {
@@ -589,32 +581,13 @@
 			this.getOrderData()
 			this.ifUser()
 		},
-		// onPageScroll(e) {
-		// 	this.scrollTop = e.scrollTop;
-		// },
+		
 		onPullDownRefresh() {
 			setTimeout(() => {
 				uni.stopPullDownRefresh()
 			}, 200)
-		},
-		onReachBottom: function() {
-			//下拉加载
-			// if (!this.pullUpOn) return;
-			// this.loadding = true;
-			// if (this.pageIndex == 4) {
-			// 	this.loadding = false;
-			// 	this.pullUpOn = false
-			// } else {
-			// 	let loadData = JSON.parse(JSON.stringify(this.productList));
-			// 	loadData = loadData.splice(0, 10)
-			// 	if (this.pageIndex == 1) {
-			// 		loadData = loadData.reverse();
-			// 	}
-			// 	this.productList = this.productList.concat(loadData);
-			// 	this.pageIndex = this.pageIndex + 1;
-			// 	this.loadding = false
-			// }
 		}
+		
 	}
 </script>
 

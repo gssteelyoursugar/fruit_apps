@@ -4,9 +4,11 @@ page.data-v-097a9f26 {
 .category-container.data-v-097a9f26 {
   margin: 0 20rpx;
   background: #fff;
-  box-shadow: 0 0 10rpx 0 #e5e5e5;
+  -webkit-box-shadow: 0 0 10rpx 0 #e5e5e5;
+          box-shadow: 0 0 10rpx 0 #e5e5e5;
   padding: 40rpx 0 36rpx;
-  border-radius: 16rpx;
+  -webkit-border-radius: 16rpx;
+          border-radius: 16rpx;
 }
 .category-container .kkarea-list.data-v-097a9f26,
 .category-container .cate-list.data-v-097a9f26 {

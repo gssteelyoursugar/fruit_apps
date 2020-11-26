@@ -1,6 +1,6 @@
 <template>
 	<view class="price-container">
-		<view class="price-wrap">
+		<view class="price-wrap" :style="{ justifyContent: isCenter? 'center' : 'unset'}">
 			<text class="price-unit">¥</text>
 			<text class="price-num">{{real_price}}</text>
 			<text class="price-num-unit">/件</text>
@@ -25,6 +25,10 @@
 			specification: {
 				type: String,
 				default: ''
+			},
+			isCenter : {
+				type: Boolean,
+				default: false
 			}
 		}
 	}
@@ -37,7 +41,6 @@
 			display: flex;
 			font-family: Microsoft Yahei;
 			align-items: baseline;
-			justify-content: center;
 			line-height: 24rpx;
 
 			.price-unit {
