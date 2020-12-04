@@ -1,6 +1,6 @@
 <template>
-	<view>
-		
+	<view class="store-data-wrapper">
+		这里是店铺信息
 	</view>
 </template>
 
